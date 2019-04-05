@@ -1,0 +1,67 @@
+# Site settings
+title: Airmotive Service
+description: "Brigham City Airport's Premiere Aerial Application, FBO, and Flight Instruction"
+baseurl: "/services" # the subpath of your site, e.g. /blog
+# Uncomment when deploying to production
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://airmotive.service" # the name of your domain
+logo_url: /services/static/imgs/AirmotiveModern.png
+
+# Hero
+hero:
+    hero_img: top_banner.jpg
+    hero_title: Airmotive Service
+    hero_description: We instruct, we fly it, we fix it, we seed it, we fertilize it, we spray it. <br> We seldom leave wheel tracks.
+
+# Contact form
+# contact_api_token: 6b0414fd19c0f2c60e05ab4ad7211707
+
+# Contact info
+contact:
+    phone: (435) 723-5702
+    fax: (435) 723-5737
+    email: airboss@xmission.com
+    address: 1800 North 2000 West <br> Hangar 22 <br>Brigham City, UT
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 13
+    address: Airmotive Service, North 2000 West, Hangar 22, Brigham City, UT
+    address_details: static/imgs/AirmotiveModern.png
+
+# Social settings
+# facebook: http://facebook.com/airmotive
+# twitter: http://twitter.com/airmotive
+# instagram: http://instagram.com/airmotive
+# youtube: http://youtube.com/airmotive
+# skype: skype:airmotive?userinfo
+# feed: yes
+
+# Footer
+copyright: © 2018 Airmotive Service - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: UA-40720897-4
+google_verification: "TGpcV5YcgeIhnN7B-MBLTGpYiA1qmBHNVsbl9fcVo48"
