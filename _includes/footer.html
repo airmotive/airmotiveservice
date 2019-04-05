@@ -1,0 +1,33 @@
+<!-- Start Footer -->
+<footer class="main-footer">
+  <div class="container-fluid">
+
+    <ul class="social">
+      {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
+      {% if site.twitter %}<li><a href="{{ site.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>{% endif %}
+      {% if site.instagram %}<li><a href="{{ site.instagram }}"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>{% endif %}
+      {% if site.youtube %}<li><a href="{{ site.youtube }}"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>{% endif %}
+      {% if site.skype %}<li><a href="{{ site.skype }}"><svg class="icon icon-skype"><use xlink:href="#icon-skype"></use></svg></a></li>{% endif %}
+      {% if site.feed %}<li><a href="#"><svg class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a></li>{% endif %}
+      <li><a href="{{ site.baseurl }}/old/index.htm">
+      <html>
+      <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+      </head>
+      </html>Old Site</a></li>
+      <br><br>
+      <li><a href="{{ site.baseurl }}/contactw.html">Contact Webmaster</a></li>
+    </ul>
+
+    <!-- <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small> -->
+    <small>Copyright &copy; 
+      <script>document.write(new Date().getFullYear())</script> Airmotive Service - All rights reserved         
+    </small> 
+  </div>
+</footer>
+<!-- End Footer -->

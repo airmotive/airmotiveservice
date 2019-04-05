@@ -1,0 +1,29 @@
+- name: Wayne Larsen
+  image: team/wayne2.jpg
+  email: airboss@xmission.com
+  phone: (435) 723-5702
+  profile: is the owner, he has been with the company for 33 years and has 18,800 flying hours
+
+- name: Jeff Larsen
+  image: team/jeff.jpg
+  email: airboss@xmission.com
+  phone: (435) 723-5702
+  profile: is a pilot/mechanic, he has been with the company for 5 years and he has 230 flying hours
+
+- name: Lacey Larsen
+  email: airboss@xmission.com
+  phone: (435) 723-5702 
+  image: team/AirmotiveFavicon.png
+  profile: We have a new member of the team, she just started January 1, 2019. Lacey will do a great job in keeping us organized and in line! 
+  
+- name: Lareen Fox
+  email: airboss@xmission.com
+  phone: (435) 723-5702 
+  image: team/lareen.jpg
+  profile: is the secretary, she has been with the company for 26 years
+  
+- name: Bill Larsen
+  image: team/bill.jpg
+  email: airboss@xmission.com
+  phone: (435) 723-5702
+  profile: is a pilot/mechanic, he has been with the company for 30 years and has 5,900 flying hours

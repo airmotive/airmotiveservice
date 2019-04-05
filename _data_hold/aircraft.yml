@@ -1,0 +1,45 @@
+aircraft:
+  - tail: N4574U
+    type: Cessna-150
+    price: $95.00
+    poh_link: /static/pohs/C150POH.pdf
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: cessna150.jpg
+
+  - tail: N41650
+    type: Piper Cherokee Warrior / PA28-151
+    price: $125.00
+    poh_link: /static/pohs/PA28POH.pdf
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: piper_cherokee_warrior.jpg
+
+  - tail: N8533T
+    type: Cessna-182
+    price: $180.00
+    poh_link: /static/pohs/C182POH.pdf
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: cessna182.jpg
+
+  - tail: N1249A
+    type: Piper Super Cub
+    price: $125.00
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: piper_super_cub.jpg
+
+  - tail: N3779W
+    type: Piper Cherokee 6
+    price: $235.00
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: piper_cherokee6.jpg
+
+  - tail: N3090Q
+    type: Piper Arrow III
+    price: $95.00
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: piper_arrow_iii.jpg
+
+  - tail: N99200
+    type: Eurocoupe (Light Sport)
+    price: $95.00
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: N99200.jpg

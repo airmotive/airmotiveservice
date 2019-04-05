@@ -1,0 +1,53 @@
+<!-- Start Aircraft -->
+<div id="aircraft" class="aircraft">
+  <div class="container-fluid">
+    <h1 class="section-title">Our Aircraft</h1>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Aircraft For Rent</h2>
+        <p>
+          We have a number of aircraft available for rent.
+        </p>
+
+        {% for plane in site.data.aircraft.aircraft %}
+        <div class="media">
+          <div class="media-left">
+            <img src="{{ site.baseurl }}/static/imgs/aircraft/{{ plane.photo }}" 
+              alt="{{ plane.tail }} photo" width='200' height='110' class="img-rounded pull-left">
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">
+              {{ plane.type }}
+            </h3>
+            <h5 class="media-heading">
+              {{ plane.tail }}
+            </h5>
+            <p>
+              {{ plane.price }} / hr
+            </p>
+            {% if plane.price1 %}
+            <p>
+              {{ plane.price1 }} / hr
+            </p>
+            {% endif %}
+            <p>        
+            {% if plane.poh_link %}        
+              <a href="{{ plane.poh_link | prepend: site.baseurl }}">POH</a>            
+            {% endif %}
+            {% for linkinfo in plane.poh_ex %}
+              <a href="{{ linkinfo.link }}">{{ linkinfo.lbl }}</a>  
+            {% endfor %} 
+            </p>
+            {% if plane.wb %}
+            <p>
+              <a href="{{ plane.wb | prepend: site.baseurl }}">Weight and Balance</a>
+            </p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Aircraft -->

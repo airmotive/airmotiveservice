@@ -1,0 +1,28 @@
+- icon: icon-graduation-hat
+  title: Flight Instruction
+  description: We can teach you how to fly! See rates Below.
+
+- icon: icon-diamond
+  title: A/C Mechanics (A&P and IA)
+  description: Our team of mechanics can inspect, fix, and upgrade your aircraft.
+
+- icon: icon-flask
+  title: Aerial Applicator
+  description: No matter the season, we'll work with you to find the aerial application for your acreage.
+
+- icon: icon-globe
+  title: FBO (Fixed Based Operator)-Fuel Sales
+  description: Make airmotive your pit-stop on your next cross-country.
+
+- icon: icon-plane
+  svg_icon: plane.svg
+  title: Rental Aircraft
+  description: We have a wide variety of aircraft for rental.
+
+- icon: icon-instagram
+  title: Aerial Photography
+  description: Need a different perspective? Let's take your photography to the next level.
+
+- icon: icon-bed
+  title: Guest Services
+  description: ''
