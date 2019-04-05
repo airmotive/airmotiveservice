@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Employee Discussion Board</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="Style%20Sheets/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#C0D9FE">
+<p align="center" class="header"><font size="6"><strong>Employee Discussion Board:</strong></font></p>
+<table width="750" border="0" align="center">
+  <tr> 
+    <td colspan="2"> <div align="center"> 
+        <p class="subheader2"><strong>Please share your opinions and thoughts...</strong></p>
+      </div></td>
+  </tr>
+  <tr class="storytext"> 
+    <td height="25" valign="middle">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr class="storytext"> 
+    <td width="175" height="25" valign="middle"> <div align="right"><font color="#FF0000" face="Tempus Sans ITC"><strong>Lareen said:&nbsp; </strong></font></div></td>
+    <td width="565" align="left" valign="top"> <div align="left"> </form> 
+        <form name="form1" method="post" action="">
+          <img src="images/discussion1.JPG" width="547" height="64"> 
+        </form>
+      </div></td>
+  </tr>
+  <tr class="storytext"> 
+    <td height="90" valign="top"> 
+      <div align="right"><font color="#FF0000" face="Tempus Sans ITC"><strong>Wayne said:&nbsp; </strong></font></div></td>
+    <td width="565" align="left" valign="top"> </form> <form name="form2" method="post" action="">
+        <img src="images/discussion2.JPG" width="547" height="36"> 
+      </form></td>
+  </tr>
+  <tr class="storytext"> 
+    <td valign="top"> 
+      <div align="right"><font color="#FF0000" face="Tempus Sans ITC"><strong>Jeff 
+        said:&nbsp; </strong></font></div></td>
+    <td width="565" align="left" valign="top"><form action="" method="post" enctype="multipart/form-data" name="form3">
+        <img src="images/discussion3.JPG" width="547" height="51"> 
+      </form></td>
+  </tr>
+  <tr class="storytext"> 
+    <td height="26" valign="top"> 
+      <div align="right"><font color="#FF0000" face="Tempus Sans ITC"><strong>Bill 
+        said:&nbsp; </strong></font></div></td>
+    <td align="left" valign="top"><form action="" method="post" enctype="multipart/form-data" name="form4">
+        <img src="images/discussion4.JPG" width="547" height="36"> 
+      </form></td>
+  </tr>
+  <tr class="storytext"> 
+    <td valign="top"> 
+      <div align="right"><font color="#FF0000" face="Tempus Sans ITC"><strong><font color="#000000" size="6">POST:</font><font color="#000000">&nbsp; 
+        </font></strong></font></div></td>
+    <td align="left" valign="middle">
+<form name="form5" method="post" action="">
+        <textarea name="textarea5" cols="50"></textarea>
+        <input type="submit" name="Submit" value="Submit">
+      </form></td>
+  </tr>
+</table>
+<p align="center" class="storytext">&nbsp;</p>
+</body>
+</html>
