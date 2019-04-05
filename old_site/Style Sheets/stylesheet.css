@@ -1,0 +1,52 @@
+.header {
+	font-family: "Tempus Sans ITC";
+	font-size: 48px;
+	font-weight: bold;
+	color: #0000FF;
+	border-bottom-width: thin;
+	border-bottom-style: none;
+}
+
+.subheader {
+	font-family: "Tempus Sans ITC";
+	font-size: 22px;
+	color: #000000;
+	font-weight: bold;
+}
+.subheader2 {
+	font-family: "Tempus Sans ITC";
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #0000FF;
+	white-space: normal;
+}
+.navtext {
+	font-family: "Tempus Sans ITC";
+	font-size: 16px;
+	color: #3366CC;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+.storyheader {
+	font-family: "Tempus Sans ITC";
+	font-size: 22px;
+	color: #0000FF;
+	font-weight: bold;
+}
+.storytext {
+	font-family: "Tempus Sans ITC";
+	font-size: 18px;
+	color: #000000;
+}
+.storysubheader {
+	font-family: "Tempus Sans ITC";
+	font-size: 10px;
+	text-transform: capitalize;
+	color: #3366CC;
+}
+.storysubtext {
+	font-family: "Tempus Sans ITC";
+	font-size: 10px;
+	color: #003366;
+}
