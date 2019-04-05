@@ -1,11 +1,11 @@
 # Site settings
 title: Airmotive Service
 description: "Brigham City Airport's Premiere Aerial Application, FBO, and Flight Instruction"
-baseurl: "/airmotive.services" # the subpath of your site, e.g. /blog
+baseurl: "https://airmotive.services/" # the subpath of your site, e.g. /blog
 # Uncomment when deploying to production
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://airmotive.service" # the name of your domain
-logo_url: /airmotive.services/static/imgs/AirmotiveModern.png
+url: "https://airmotive.services" # the name of your domain
+logo_url: https://airmotive.services/static/imgs/AirmotiveModern.png
 
 # Hero
 hero:
