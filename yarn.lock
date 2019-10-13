@@ -858,7 +858,7 @@ grunt-svgstore@^1.0.0:
   dependencies:
     chalk "^1.0.0"
     cheerio "^0.20.0"
-    handlebars "^2.0.0"
+    handlebars "^3.0.7"
     js-beautify "~1.5.10"
     multiline "^0.3.4"
 
@@ -890,9 +890,9 @@ gzip-size@^1.0.0:
     browserify-zlib "^0.1.4"
     concat-stream "^1.4.1"
 
-handlebars@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-2.0.0.tgz#6e9d7f8514a3467fa5e9f82cc158ecfc1d5ac76f"
+handlebars@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-3.0.7.tgz#6e9d7f8514a3467fa5e9f82cc158ecfc1d5ac76f"
   dependencies:
     optimist "~0.3"
   optionalDependencies:
