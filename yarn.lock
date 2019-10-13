@@ -282,7 +282,7 @@ cheerio@^0.20.0:
     dom-serializer "~0.1.0"
     entities "~1.1.1"
     htmlparser2 "~3.8.1"
-    lodash "^4.1.0"
+    lodash "^4.17.13"
   optionalDependencies:
     jsdom "^7.0.2"
 
@@ -744,7 +744,7 @@ globule@^1.0.0:
   resolved "https://registry.yarnpkg.com/globule/-/globule-1.2.0.tgz#1dc49c6822dd9e8a2fa00ba2a295006e8664bd09"
   dependencies:
     glob "~7.1.1"
-    lodash "~4.17.4"
+    lodash "~4.17.13"
     minimatch "~3.0.2"
 
 graceful-fs@^4.1.2:
@@ -791,7 +791,7 @@ grunt-contrib-watch@^1.0.0:
   dependencies:
     async "^1.5.0"
     gaze "^1.0.0"
-    lodash "^3.10.1"
+    lodash "^4.17.13"
     tiny-lr "^0.2.1"
 
 grunt-known-options@~1.1.0:
@@ -803,7 +803,7 @@ grunt-legacy-log-utils@~1.0.0:
   resolved "https://registry.yarnpkg.com/grunt-legacy-log-utils/-/grunt-legacy-log-utils-1.0.0.tgz#a7b8e2d0fb35b5a50f4af986fc112749ebc96f3d"
   dependencies:
     chalk "~1.1.1"
-    lodash "~4.3.0"
+    lodash "~4.17.13"
 
 grunt-legacy-log@~1.0.0:
   version "1.0.0"
@@ -812,7 +812,7 @@ grunt-legacy-log@~1.0.0:
     colors "~1.1.2"
     grunt-legacy-log-utils "~1.0.0"
     hooker "~0.2.3"
-    lodash "~3.10.1"
+    lodash "~4.17.13"
     underscore.string "~3.2.3"
 
 grunt-legacy-util@~1.0.0:
@@ -823,7 +823,7 @@ grunt-legacy-util@~1.0.0:
     exit "~0.1.1"
     getobject "~0.1.0"
     hooker "~0.2.3"
-    lodash "~4.3.0"
+    lodash "~4.17.13"
     underscore.string "~3.2.3"
     which "~1.2.1"
 
@@ -1226,33 +1226,33 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
-lodash.assign@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
+lodash.assign@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.17.13.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
 
-lodash.clonedeep@^4.3.2:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+lodash.clonedeep@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.17.13.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
-lodash.mergewith@^4.6.0:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
+lodash.mergewith@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.17.13.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
 
-lodash@^3.10.1, lodash@~3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+lodash@^4.17.13, lodash@~4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@~4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+lodash@^4.17.13, lodash@~4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-lodash@^4.1.0:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+lodash@^4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
-lodash@~4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.3.0.tgz#efd9c4a6ec53f3b05412429915c3e4824e4d25a4"
+lodash@~4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#efd9c4a6ec53f3b05412429915c3e4824e4d25a4"
 
 log-symbols@^1.0.0:
   version "1.0.2"
@@ -1398,9 +1398,9 @@ node-sass@^4.7.2:
     get-stdin "^4.0.1"
     glob "^7.0.3"
     in-publish "^2.0.0"
-    lodash.assign "^4.2.0"
-    lodash.clonedeep "^4.3.2"
-    lodash.mergewith "^4.6.0"
+    lodash.assign "^4.17.13"
+    lodash.clonedeep "^4.17.13"
+    lodash.mergewith "^4.17.13"
     meow "^3.7.0"
     mkdirp "^0.5.1"
     nan "^2.10.0"
@@ -1837,7 +1837,7 @@ sass-graph@^2.2.4:
   resolved "https://registry.yarnpkg.com/sass-graph/-/sass-graph-2.2.4.tgz#13fbd63cd1caf0908b9fd93476ad43a51d1e0b49"
   dependencies:
     glob "^7.0.0"
-    lodash "^4.0.0"
+    lodash "^4.17.13"
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
