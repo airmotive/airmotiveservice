@@ -954,11 +954,11 @@ hawk@~6.0.2:
     sntp "2.x.x"
 
 hoek@4.2.1:
-  version "2.16.3"
+  version "4.2.1"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
 hoek@4.2.1:
-  version "4.2.0"
+  version "4.2.1"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#72d9d0754f7fe25ca2d01ad8f8f9a9449a89526d"
 
 hooker@~0.2.3:
