@@ -56,20 +56,14 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-argparse@^1.0.2:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.9.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
-  dependencies:
-    sprintf-js "~1.0.2"
-
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
   dependencies:
     sprintf-js "~1.0.2"
 
-array-differ@^3.5.0:
-  version "3.5.0"
+array-differ@^1.0.0:
+  version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-differ/-/array-differ-1.0.0.tgz#eff52e3758249d33be402b8bb8e564bb2b5d4031"
 
 array-find-index@^1.0.1:
@@ -147,9 +141,9 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-bcrypt-pbkdf@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-4.1.2.tgz#63bc5dcb61331b92bc05fd528953c33462a06f8d"
+bcrypt-pbkdf@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
   dependencies:
     tweetnacl "^0.14.3"
 
@@ -376,12 +370,6 @@ cross-spawn@^3.0.0:
 
 cryptiles@4.1.2:
   version "4.1.2"
-  resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-4.1.2.tgz#3bdfecdc608147c1c67202fa291e7dca59eaa3b8"
-  dependencies:
-    boom "2.x.x"
-
-cryptiles@4.1.2:
-  version "4.1.2"
   resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-4.1.2.tgz#a89fbb220f5ce25ec56e8c4aa8a4fd7b5b0d29fe"
   dependencies:
     boom "5.x.x"
@@ -461,9 +449,9 @@ depd@~1.1.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
 
-diff@~3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#fd07a1f1f891519d9905a4c9a89dcf5a70b66037"
+diff@~1.3.0:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-1.3.2.tgz#fd07a1f1f891519d9905a4c9a89dcf5a70b66037"
 
 dom-serializer@0, dom-serializer@~0.1.0:
   version "0.1.0"
@@ -567,7 +555,7 @@ exit@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
 
-extend@~3.0.2, extend@~3.0.2:
+extend@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
@@ -641,7 +629,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fstream@^1.0.12, fstream@^1.0.12:
+fstream@^1.0.12, fstream@^1.0.2:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/fstream/-/fstream-1.0.12.tgz#5c1fb1f117477114f0632a0eb4b71b3cb0fd3171"
   dependencies:
@@ -954,12 +942,8 @@ hawk@~6.0.2:
     sntp "2.x.x"
 
 hoek@4.2.1:
-  version "2.16.3"
-  resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
-
-hoek@4.2.1:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#72d9d0754f7fe25ca2d01ad8f8f9a9449a89526d"
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
 
 hooker@~0.2.3:
   version "0.2.3"
@@ -1129,14 +1113,14 @@ js-beautify@~1.5.10:
 
 js-yaml@~3.13.1:
   version "3.13.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#0377c38017cabc7322b0d1fbcd25a491641f2fbe"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
   dependencies:
-    argparse "^1.0.2"
+    argparse "^1.0.7"
     esprima "^2.6.0"
 
-js-yaml@~3.13.1:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
+js-yaml@~3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.7.0.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
   dependencies:
     argparse "^1.0.7"
     esprima "^2.6.0"
@@ -1239,18 +1223,6 @@ lodash.mergewith@^4.17.13:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.17.13.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
 
 lodash@^4.17.13, lodash@~4.17.13:
-  version "4.17.13"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
-lodash@^4.17.13, lodash@~4.17.13:
-  version "4.17.13"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@^4.17.13:
-  version "4.17.13"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-
-lodash@~4.17.13:
   version "4.17.13"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#efd9c4a6ec53f3b05412429915c3e4824e4d25a4"
 
@@ -1828,7 +1800,7 @@ rimraf@~2.2.8:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
 
-safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
@@ -1970,7 +1942,7 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-stringstream@~0.0.6, stringstream@~0.0.6:
+stringstream@~0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.6.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
 
@@ -2071,13 +2043,7 @@ trim-newlines@^1.0.0:
   dependencies:
     glob "^6.0.4"
 
-tunnel-agent@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
-  dependencies:
-    safe-buffer "^5.0.1"
-
-tunnel-agent@~0.6.0:
+tunnel-agent@^0.6.0, tunnel-agent@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
 
