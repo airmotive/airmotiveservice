@@ -23,10 +23,12 @@
           <div class="media-body">
             <h3 class="media-heading">
               {{ plane.type }}
-            </h3>
-            <h4 class="media-heading">
-              {{ plane.tail }}
-            </h4>
+            </h3>            
+            {% if plane.tail %}
+              <h4 class="media-heading">
+                {{ plane.tail }}
+              </h4>
+            {% endif %}
             <p>
               {{ plane.price }} / hr
             </p>
