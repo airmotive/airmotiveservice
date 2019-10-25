@@ -6,15 +6,15 @@
     <div class="expandable-box">
       <div class="expandable-box-top">
         
-        <img src="{{ site.baseurl }}/img/{{ member.image }}" width='260' height='100' alt="{{ member.name }}"> 
+        <img src="{{ site.baseurl }}/img/{{ member.image }}" width='260' height='100' alt="{{ member.name }} Photo"> 
         <h4>{{ member.name }}</h4><br>{{ member.profile }}
       </div>
       <div class="expandable-box-bottom">
         <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}">
-          <svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg>
+          <svg class="icon icon-envelope" alt="email {{ member.name }}" ><use xlink:href="#icon-envelope"></use></svg>
         </a>
         <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}">
-          <svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg>
+          <svg class="icon icon-phone" alt="call {{ member.name }}"><use xlink:href="#icon-phone"></use></svg>
         </a>
       </div>
     </div>
