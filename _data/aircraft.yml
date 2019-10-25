@@ -67,8 +67,9 @@ aircraft:
     wb: /static/pohs/AirmotiveWT&BAL.xls
     photo: N99200.jpg
  
-  - type: Flight Instruction 
-    price: Basic $50
-    price1: Advanced $60
+  - tail: Flight Instruction
+    type: Basic $50
+    price: Advanced $60
+    price1: 
     photo: instruct.jpg 
     
