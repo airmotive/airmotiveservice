@@ -5,17 +5,19 @@
     <div class="container-fluid">
       <div id="testimonial-carousel">
         {% for testimonial in site.data.testimonials %}
-        <div class="testimonial-item">
-          <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-          <blockquote>
-            <!-- <img src="{{ site.baseurl }}/svg/plane.svg"> -->
-            <p>{{ testimonial.description }}</p>
-            <footer>
-              {{ testimonial.name }}
-              <small>{{ testimonial.title }}</small>
-            </footer>
-          </blockquote>
-        </div>
+        <h2>
+          <div class="testimonial-item">
+            <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+            <blockquote>
+              <!-- <img src="{{ site.baseurl }}/svg/plane.svg"> -->
+              <p>{{ testimonial.description }}</p>
+              <footer>
+                {{ testimonial.name }}
+                <small>{{ testimonial.title }}</small>
+              </footer>
+            </blockquote>
+          </div>
+        </h2> 
         {% endfor %}
       </div>
     </div>
