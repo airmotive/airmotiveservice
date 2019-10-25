@@ -8,7 +8,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="icon-box">
           {% if service.svg_icon %}
-          <img src="{{ site.baseurl }}/svg/{{ service.svg_icon }}"
+          <img src="{{ site.baseurl }}/svg/{{ service.svg_icon }}" 
+           alt="{{ service.title }}"
             width="64px" height="64px"/>
           {% else %}
           <svg class="icon {{ service.icon }}"><use xlink:href="#{{ service.icon }}"></use></svg>
