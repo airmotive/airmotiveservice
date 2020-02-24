@@ -4,36 +4,48 @@ layout: default
 <!-- Start Footer -->
 	
 	<div class="container-fluid">
-		<script>
-			function validateForm() {
-				var x = document.forms["myForm1"]["answer"].value.toLowerCase();	
-				alert("validate...");									
-				if (x !== "sky") {
-					alert("Try Again! Where do we fly?");
-					return false;
-				}
-			}
-			</script>
 	<!-- change to send form  -->
 		<form name="myForm" action="http://getsimpleform.com/messages?form_api_token=94642b66673da3da167a31593ec0eda1" 
 			onsubmit="return validateForm()" method="post">
 			<input type='hidden' name='redirect_to' value='https://airmotiveservice.com/' />  
-				<h2 class="section-title"><br><br>Contact Webmaster</h2> 
-				<div class="control-group">
-					<div class="form-group floating-label-form-group controls mb-0 pb-2">
-						<label for='name'>Name</label>            
-						<input class="form-control" type='text' id='name' name='name' placeholder='Your Name'required="required" data-validation-required-message="Please enter your name." />
-					</div>
+			<h2 class="section-title"><br><br>Contact Webmaster</h2> 
+			<div class="control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+					<label for='name'>Name</label>            
+					<input class="form-control" type='text' id='name' name='name' placeholder='Your Name'required="required" data-validation-required-message="Please enter your name." />
 				</div>
-			
-		<div class="control-group">
-			<div class="form-group floating-label-form-group controls mb-0 pb-2">
-				<label for='answer'>We fly in the ____? sv</label>                  
-				<input class="form-control" type='text' id='answer' name='answer' placeholder='Your answer' required="required" data-validation-required-message="Please enter your answer." />              
 			</div>
-		</div>	
-		<br>	
-		<div id="success"></div>
+			<div class="control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+					<label for='email'>Email</label>                  
+					<input class="form-control" type='text' id='email' name='email' placeholder='Your Email' required="required" data-validation-required-message="Please enter your email address." />              
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+					<label for='Phone'>Phone</label>              
+					<input class="form-control" type='text' id='phone' name='phone' placeholder='Phone Number' required="required" data-validation-required-message="Please enter your phone number." />
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+					<label for='Subject'>Subject</label>              
+					<input class="form-control" type='text' id='subject' name='subject' placeholder='Subject' required="required" data-validation-required-message="Please enter your phone number." />
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+					<label for='message_airmotive'>Message</label>              
+					<textarea class="form-control" id='message_airmotive' name='message_airmotive' placeholder='Message' rows='4' cols='50' required="required" data-validation-required-message="Please enter a message."></textarea>
+				</div>
+			</div>			
+			<div class="control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+					<label for='answer'>We fly in the ____? sf</label>                  
+					<input class="form-control" type='text' id='answer' name='answer' placeholder='Your answer' required="required" data-validation-required-message="Please enter your answer." />              
+				</div>
+			</div>		
+			<div id="success"></div>
 			<div class="form-group">
 				<input type='submit' class="btn btn-primary btn-xl" value='Send Message' />
 				<!-- <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send1</button> -->
