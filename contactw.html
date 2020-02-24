@@ -4,6 +4,16 @@ layout: default
 <!-- Start Footer -->
 	
 	<div class="container-fluid">
+		<script>
+			function validateForm() {
+				var x = document.forms["myForm1"]["answer"].value.toLowerCase();	
+				alert("validate...");									
+				if (x !== "sky") {
+					alert("Try Again! Where do we fly?");
+					return false;
+				}
+			}
+			</script>
 	<!-- change to send form  -->
 		<form name="myForm1" action="http://getsimpleform.com/messages?form_api_token=94642b66673da3da167a31593ec0eda1" onsubmit="return validateForm()" method="post">
 			<input type='hidden' name='redirect_to' value='https://airmotiveservice.com/' />  
@@ -30,15 +40,6 @@ layout: default
 		</form>
 	</div>
 
-	<script>
-		function validateForm() {
-			var x = document.forms["myForm1"]["answer"].value.toLowerCase();	
-			alert("validate...");									
-			if (x !== "sky") {
-				alert("Try Again! Where do we fly?");
-				return false;
-			}
-		}
-		</script>
+
 <!-- End Footer -->
 	
