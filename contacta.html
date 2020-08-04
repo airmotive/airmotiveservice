@@ -3,9 +3,7 @@ layout: default
 ---
 <!-- Start Footer -->
 
-<!-- Start contact -->
-				
-	
+<!-- Start contact -->		
 	<div class="container-fluid">
 	<!-- change to send form  -->
 		<form id="contactform" method="POST">
@@ -47,13 +45,14 @@ layout: default
 				<div class="form-group floating-label-form-group controls mb-0 pb-2">
 					<label for='answer'>We fly in the ____?</label>                  
 					<input class="form-control" type='text' id='answer' name='answer' placeholder='Your answer' required="required" data-validation-required-message="Please enter your answer." />              
-					<input type="text" name="_gotcha" style="display:none" />
 				</div>
 			</div>		
 			<div id="success"></div>
+			<input type="text" name="_gotcha" style="display:none" />
+			<button id="sendMessage">Send</button>
 			<div class="form-group">
 				
-				<button id="sendMessage">Send Message</button>
+				
 				<!-- <input type='submit' class="btn btn-primary btn-xl" value='Send Message' /> -->
 				<!-- <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send1</button> -->
 			</div>
