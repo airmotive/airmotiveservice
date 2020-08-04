@@ -2,12 +2,16 @@
 layout: default
 ---
 <!-- Start Footer -->
+
+<!-- Start contact -->
+				
 	
 	<div class="container-fluid">
 	<!-- change to send form  -->
-		<form name="myForm" action="https://getsimpleform.com/messages?form_api_token=bee7f08bfb3d7cae566eddd8a74ec287" 
-			onsubmit="return validateForm()" method="post">
-			<input type='hidden' name='redirect_to' value='https://airmotiveservice.com/' />  
+		<form id="contactform" method="POST">
+<!--		<form name="myForm" action="https://getsimpleform.com/messages?form_api_token=bee7f08bfb3d7cae566eddd8a74ec287" 
+			onsubmit="return validateForm()" method="post"> -->
+			<!-- <input type='hidden' name='redirect_to' value='https://airmotiveservice.com/' />   -->
 			<h2 class="section-title"><br><br>Contact Webmaster</h2> 
 			<div class="control-group">
 				<div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -43,11 +47,14 @@ layout: default
 				<div class="form-group floating-label-form-group controls mb-0 pb-2">
 					<label for='answer'>We fly in the ____?</label>                  
 					<input class="form-control" type='text' id='answer' name='answer' placeholder='Your answer' required="required" data-validation-required-message="Please enter your answer." />              
+					<input type="text" name="_gotcha" style="display:none" />
 				</div>
 			</div>		
 			<div id="success"></div>
 			<div class="form-group">
-				<input type='submit' class="btn btn-primary btn-xl" value='Send Message' />
+				
+				<button id="sendMessage">Send Message</button>
+				<!-- <input type='submit' class="btn btn-primary btn-xl" value='Send Message' /> -->
 				<!-- <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send1</button> -->
 			</div>
 		</form>
