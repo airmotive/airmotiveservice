@@ -1,42 +1,22 @@
 
-				<div class="container-fluid">
-					<!-- change to send form  -->
-						<!-- modify this form HTML and place wherever you want your form -->
-						<form id="contactform" method="POST">
-					
-							<h2 class="text-white"><br><br>Contact Us</h2> 
-							<div class="control-group">
-								<div class="text-white floating-label-form-group controls mb-0 pb-2">
-									<label for='name'>Name</label>            
-									<input class="form-control" type='text' id='name' name='name' placeholder='Your Name'required="required" data-validation-required-message="Please enter your name." />
+				<<form id="contactform" method="POST">
+					<div class="form-group">
+						<div class="input-group">
+							<span class="input-group-addon">Name</span>
+							<input name="form-name-input" type="text" name="name" class="form-control" required>
 								</div>
-							</div>
-							<div class="control-group">
-								<div class="text-white floating-label-form-group controls mb-0 pb-2">
-									<label for='email'>Email</label>                  
-									<input class="form-control" type='text' id='email' name='email' placeholder='Your Email' required="required" data-validation-required-message="Please enter your email address." />              
+							<div class="input-group">
+								<span class="input-group-addon">Email</span>
+								<input name="form-email-input" type="email" name="_replyto" class="form-control" required>
+									</div>
+								<div class="input-group">
+									<span class="input-group-addon">Subject</span>
+									<input name="form-subject-input" type="text" name="subject" class="form-control" required>
+										</div>
+									<div class="input-group">
+										<span class="input-group-addon">Description</span>
+										<textarea name="form-description-input" name="description" class="form-control" rows="4" cols="60" required></textarea>
 								</div>
-							</div>
-							<div class="control-group">
-								<div class="text-white floating-label-form-group controls mb-0 pb-2">
-									<label for='Phone'>Phone</label>              
-									<input class="form-control" type='text' id='phone' name='phone' placeholder='Phone Number' required="required" data-validation-required-message="Please enter your phone number." />
+									<input type="text" name="_gotcha" style="display:none" />
+									<button id="sendMessage">Send</button>
 								</div>
-							</div>
-							<div class="control-group">
-								<div class="text-white floating-label-form-group controls mb-0 pb-2">
-									<label for='Subject'>Subject</label>              
-									<input class="form-control" type='text' id='subject' name='subject' placeholder='Subject' required="required" data-validation-required-message="Please enter your phone number." />
-								</div>
-							</div>
-							<div class="control-group">
-								<div class="text-white floating-label-form-group controls mb-0 pb-2">
-									<label for='message_airmotive'>Message</label>              
-									<textarea class="form-control" id='message_airmotive' name='message_airmotive' placeholder='Message' rows='4' cols='50' required="required" data-validation-required-message="Please enter a message."></textarea>
-								</div>
-							</div>								
-							
-							<input type="text" name="_gotcha" style="display:none" />
-                            <button id="sendMessage">Send</button>
-                        </form>
-                    </div>
