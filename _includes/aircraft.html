@@ -37,6 +37,11 @@
               {{ plane.price1 }} / hr
             </p>
             {% endif %}
+            {% if plane.price2 %}
+            <p>
+              {{ plane.price2 }} / hr
+            </p>
+            {% endif %}
             <p>        
             {% if plane.poh_link %}        
               <a href="{{ plane.poh_link | prepend: site.baseurl }}">POH</a>            

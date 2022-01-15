@@ -1,14 +1,14 @@
 aircraft:
   - tail: N4574U
     type: Cessna-150
-    price: $112.00
+    price: $125.00
     poh_link: /static/pohs/N4574UPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xls
     photo: cessna150.jpg 
 
   - tail: N41650
     type: Piper Cherokee Warrior / PA28-151
-    price: $155.00
+    price: $170.00
     poh_link: /static/pohs/N41650POH.pdf
     poh_ex:
       - link: http://static.garmin.com/pumac/190-01499-00_C.pdf
@@ -22,7 +22,7 @@ aircraft:
 
   - tail: N8533T
     type: Cessna-182
-    price: $195.00
+    price: $215.00
     poh_link: /static/pohs/N8533TPOH.pdf
     poh_ex:
       - link: http://static.garmin.com/pumac/190-01499-00_C.pdf
@@ -36,21 +36,28 @@ aircraft:
 
   - tail: N1653P
     type: Piper Super Cub
-    price: $145.00
+    price: $160.00
     poh_link: /static/pohs/N1653PPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xls
     photo: piper_super_cub.jpg
 
+  - tail: N205NB
+    type: Cessna-205
+    price: $230.00
+    poh_link: /static/pohs/N205NB.pdf
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: N205NB.jpg
+
   - tail: N3779W
     type: Piper Cherokee 6
-    price: $240.00
+    price: $265.00
     poh_link: /static/pohs/N3779WPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xls
     photo: piper_cherokee6.jpg
 
   - tail: N3090Q
     type: Piper Arrow III
-    price: $225.00
+    price: $250.00
     poh_link: /static/pohs/N3090QPOH.pdf
     poh_ex:
       - link: http://static.garmin.com/pumac/190-01499-00_C.pdf
@@ -62,13 +69,14 @@ aircraft:
 
   - tail: N99200
     type: Eurocoupe (Light Sport)
-    price: $112.00
+    price: $125.00
     poh_link: /static/pohs/N99200POH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xls
     photo: N99200.jpg
  
   - type: Flight Instruction
-    price: Basic $50 
-    price1: Advanced $60
+    price: Private Pilot $60 
+    price1: After Private Pilot & in Cub $70
+    price2: Tail instruction in owners A/C $80
     photo: instruct.jpg 
     
