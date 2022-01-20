@@ -3,7 +3,7 @@ aircraft:
     type: Cessna-150
     price: $125.00
     poh_link: /static/pohs/N4574UPOH.pdf
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: cessna150.jpg 
 
   - tail: N41650
@@ -17,7 +17,7 @@ aircraft:
         lbl: GTN 750 / GMA 35C 
       - link: http://static.garmin.com/pumac/190-01112-12_C.pdf
         lbl: G5 
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: piper_cherokee_warrior.jpg
 
   - tail: N8533T
@@ -31,28 +31,28 @@ aircraft:
         lbl: GTN 750 / GMA 35C 
       - link: http://static.garmin.com/pumac/190-01112-12_C.pdf
         lbl: G5 
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: cessna182.jpg
 
   - tail: N1653P
     type: Piper Super Cub
     price: $160.00
     poh_link: /static/pohs/N1653PPOH.pdf
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: piper_super_cub.jpg
 
   - tail: N205NB
     type: Cessna-205
     price: $230.00
     poh_link: /static/pohs/N205NB.pdf
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: N205NB.jpg
 
   - tail: N3779W
     type: Piper Cherokee 6
     price: $265.00
     poh_link: /static/pohs/N3779WPOH.pdf
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: piper_cherokee6.jpg
 
   - tail: N3090Q
@@ -64,14 +64,14 @@ aircraft:
         lbl: GTX 345
       - link: http://static.garmin.com/pumac/190-01007-03_Q.pdf
         lbl: GTN 750 / GMA 35C 
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: piper_arrow_iii.jpg
 
   - tail: N99200
     type: Eurocoupe (Light Sport)
     price: $125.00
     poh_link: /static/pohs/N99200POH.pdf
-    wb: /static/pohs/AirmotiveWT&BAL.xls
+    wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: N99200.jpg
  
   - type: Flight Instruction
