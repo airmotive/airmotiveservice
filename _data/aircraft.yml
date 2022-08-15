@@ -68,7 +68,7 @@ aircraft:
     photo: piper_arrow_iii.jpg
 
   - tail: N99200
-    type: Eurocoupe (Light Sport)
+    type: Erocoupe (Light Sport)
     price: $140.00
     poh_link: /static/pohs/N99200POH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
