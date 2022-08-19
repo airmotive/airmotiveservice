@@ -18,6 +18,11 @@
   svg_icon: plane.svg
   title: Rental Aircraft
   description: We have a wide variety of aircraft for rental.
+  
+- icon: icon-car
+  svg_icon: Car_Icon.svg
+  title: Courtesy Car
+  description: We have a Courtesy Car for your convenience.
 
 - icon: icon-instagram
   title: Aerial Photography
