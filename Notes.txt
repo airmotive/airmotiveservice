@@ -1,0 +1,17 @@
+https://medium.com/@oreillyalan88/how-to-hide-api-keys-from-github-7a14d1bf80c#:~:text=The%20only%20way%20to%20hide,without%20disclosing%20my%20API%20keys.
+https://oliverjam.es/blog/we-dont-need-servers/
+
+Setup Booking app
+config.js for API keys
+<script type=’text/javascript’ src=’config.js’></script>
+
+
+
+https://help.campussuite.com/kb/embed-a-google-calendar-on-your-web-page
+https://calendar.google.com/calendar/u/1/embedhelper?src=2i9vifiboqjrm2nkb6co9e9aig%40group.calendar.google.com&ctz=America%2FDenver
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&src=Mmk5dmlmaWJvcWpybTJua2I2Y285ZTlhaWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+
+Flask
+https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
