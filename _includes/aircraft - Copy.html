@@ -25,6 +25,7 @@
             <p>
               {{ plane.price }} / hr
             </p>
+            <p><a href="https://airmotive.pythonanywhere.com/request">Request a Flight or Lesson.</a></p> 
             {% if plane.poh_link %}
             <p>
               <a href="{{ plane.poh_link | prepend: site.baseurl }}">POH</a>
