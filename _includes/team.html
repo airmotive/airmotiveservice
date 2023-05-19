@@ -10,7 +10,9 @@
         <h4>{{ member.name }}</h4><br>{{ member.profile }}
       </div>
       <div class="expandable-box-bottom">
-        <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}">
+        <a href="mailto:{{ member.email }}" 
+        
+          data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}">
           <svg class="icon icon-envelope"> alt="email {{ member.name }}" <use xlink:href="#icon-envelope"></use></svg>
         </a>
         <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}">
