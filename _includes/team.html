@@ -10,8 +10,8 @@
         <h4>{{ member.name }}</h4><br>{{ member.profile }}
       </div>
       <div class="expandable-box-bottom">
-        <a href="mailto:{{ member.email }}" 
-        
+        <!-- <a href="mailto:{{ member.email }}" -->
+        <a href="https://airmotive.pythonanywhere.com/request">
           data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}">
           <svg class="icon icon-envelope"> alt="email {{ member.name }}" <use xlink:href="#icon-envelope"></use></svg>
         </a>
