@@ -12,13 +12,13 @@
         {% for plane in site.data.aircraft.aircraft %}
         <div class="media">
           <div class="media-left">
-            <img src="{{ site.baseurl }}/static/imgs/aircraft/{{ plane.photo }}" 
+            <a href="https://airmotive.pythonanywhere.com/request"><img src="{{ site.baseurl }}/static/imgs/aircraft/{{ plane.photo }}" 
               {% if plane.tail %}        
                 alt="{{ plane.tail }} photo"   
               {% else %}   
                 alt="{{ plane.type }} photo"         
               {% endif %}              
-              width='200' height='110' class="img-rounded pull-left" href="https://airmotive.pythonanywhere.com/request">>
+              width='200' height='110' class="img-rounded pull-left" ></a>
           </div>
           <div class="media-body">
             <h3 class="media-heading">
