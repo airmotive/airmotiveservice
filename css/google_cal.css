@@ -1,8 +1,8 @@
-.googleCalendar{
+  .googleCalendar{
     position: relative;
     height: 0;
-    width: 50%;
-    padding-bottom: 50%;
+    width: 90%;
+    padding-bottom: 70%;
   }
   
   .googleCalendar iframe{
