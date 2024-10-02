@@ -1,7 +1,7 @@
 aircraft:
   - tail: N4574U
     type: Cessna-150
-    price: cash:: $152.00/hr card:: $157.00/hr 
+    price: cash":" $152.00/hr card":" $157.00/hr 
     poh_link: /static/pohs/N4574UPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: cessna150.jpg 
