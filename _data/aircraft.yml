@@ -1,14 +1,14 @@
 aircraft:
   - tail: N4574U
     type: Cessna-150
-    price: cash: $152.00 card: $157.00 
+    price: cash: $152.00/hr card: $157.00/hr 
     poh_link: /static/pohs/N4574UPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: cessna150.jpg 
 
   - tail: N41650
     type: Piper Cherokee Warrior / PA28-151
-    price: cash: $210.00 card: $216.00
+    price: cash: $210.00/hr card: $216.00/hr
     poh_link: /static/pohs/N41650POH.pdf
     poh_ex:
       - link: https://static.garmin.com/pumac/190-01499-00_f.pdf
@@ -22,7 +22,7 @@ aircraft:
 
   - tail: N8533T
     type: Cessna-182
-    price: cash: $274.00 card: $283.00
+    price: cash: $274.00/hr card: $283.00/hr
     poh_link: /static/pohs/N8533TPOH.pdf
     poh_ex:
       - link: https://static.garmin.com/pumac/190-01499-00_f.pdf
@@ -36,28 +36,28 @@ aircraft:
 
   - tail: N1653P
     type: Piper Super Cub
-    price: cash: $199.00 card: $205.00 
+    price: cash: $199.00/hr card: $205.00/hr 
     poh_link: /static/pohs/N1653PPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: piper_super_cub.jpg
 
   - tail: N205NB
     type: Cessna-205
-    price: cash: $291.00 card: $300.00
+    price: cash: $291.00/hr card: $300.00/hr
     poh_link: /static/pohs/N205NB.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: N205NB.jpg
 
   - tail: N3779W
     type: Piper Cherokee 6
-    price: cash: $335.00 card: $345.00 
+    price: cash: $335.00/hr card: $345.00/hr 
     poh_link: /static/pohs/N3779WPOH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: piper_cherokee6.jpg
 
   - tail: N3090Q
     type: Piper Arrow III
-    price: cash: $312.00 card: $322.00 
+    price: cash: $312.00/hr card: $322.00/hr 
     poh_link: /static/pohs/N3090QPOH.pdf
     poh_ex:
       - link: https://static.garmin.com/pumac/190-01499-00_f.pdf
@@ -69,14 +69,14 @@ aircraft:
 
   - tail: N99200
     type: Ercoupe (Light Sport)
-    price: cash: $152.00 card: $157.00 
+    price: cash: $152.00/hr card: $157.00/hr 
     poh_link: /static/pohs/N99200POH.pdf
     wb: /static/pohs/AirmotiveWT&BAL.xlsx
     photo: N99200.jpg
  
   - type: Flight Instruction
-    price: Private Pilot $68 
-    price1: After Private Pilot & in Cub $78
-    price2: Tail instruction in owners A/C $88
+    price: Private Pilot $68.00/hr 
+    price1: After Private Pilot & in Cub $78.00/hr
+    price2: Tail instruction in owners A/C $88.00/hr
     photo: instruct.jpg 
     
