@@ -8,7 +8,7 @@ aircraft:
 
   - tail: N41650
     type: Piper Cherokee Warrior / PA28-151
-    price: 'cash: $152.00/hr card: $157.00/hr'
+    price: 'cash: $210.00/hr card: $216.00/hr'
     poh_link: /static/pohs/N41650POH.pdf
     poh_ex:
       - link: https://static.garmin.com/pumac/190-01499-00_f.pdf
